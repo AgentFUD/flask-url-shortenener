@@ -1,5 +1,5 @@
 # url-shortener-demo
-A Simple URL Shortener written in Flask
+A Simple URL Shortener written in Flask with SQLAlchemy
 
 ## How to run the demo ##
 
