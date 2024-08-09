@@ -31,7 +31,7 @@ Navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 You can check the database content with the sqlite3 command line tool
 
 ```bash
-sqlite3 short_urls.sqlite 
+bash$ sqlite3 short_urls.sqlite 
 SQLite version 3.40.1 2022-12-28 14:03:47
 Enter ".help" for usage hints.
 sqlite> select * from urls;
