@@ -27,7 +27,11 @@ def index():
 def jump(short_url):
     with Session() as session:
         entry = session.query(Urls).filter(Urls.short_url == short_url).first()
-    return redirect(entry.original_url)
+        if entry:
+            return redirect(entry.original_url)
+        else:
+            return render_template('home.html')
+
 
 if __name__ == "__main__":
     app.run(debug=True)
