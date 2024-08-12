@@ -22,7 +22,7 @@ bash$ pip3 install -r requirements.txt
 
 Run the app
 ```bash
-bash$ flask run
+bash$ flask run --debug
 ```
 
 Navigate to [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
